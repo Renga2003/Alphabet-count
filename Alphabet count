@@ -1,0 +1,19 @@
+a=input()
+
+b={}
+
+c=set(a)
+
+d=sorted(c)
+
+for i in d:
+
+    b[i]=a.count(i)
+
+e = str(b)
+
+f = e.replace("'","")
+
+res = f.replace(" ","")
+
+print(res)
